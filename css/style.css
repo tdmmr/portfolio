@@ -236,7 +236,7 @@ li {
 }
 
 .works-title {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: bold;
   margin-top: 8px;
 }
@@ -247,16 +247,16 @@ li {
 }
 
 .works-text {
-  font-size: 10px;
+  font-size: 14px;
 }
 
 .works-url {
-  font-size: 10px;
+  font-size: 14px;
 }
 
 .works-url-link {
   display: inline-block;
-  padding: 1px 20px;
+  padding: 1px 30px;
 }
 
 .works-image.fadein {
@@ -528,6 +528,11 @@ li {
     flex: 0 0 48%;
     margin-right: 0;
     margin-bottom: 30px;
+  }
+
+  .works-url-link {
+    display: block;
+    padding: 1px 0;
   }
 
   /* Feature */
